@@ -1,0 +1,209 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container-top{
+    background-image: url(./images/A5F0D3E4-6D82-40F9-B791-C1896D3D831F_1_105_c.jpeg);
+    width: 100vh;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+
+}
+.container-top h1{
+    color: white;
+}
+
+.card1{
+
+    background-image: url(./images/3B762A4F-6FA7-4F05-A2C3-8BE3A455BB7C_1_105_c.jpeg);
+    
+    height: 200px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+
+}
+.card2{
+
+    background-image: url(./images/47F2C883-9CCE-4CA2-91B2-19FFF5FD6C0E_1_201_a.jpeg);
+    
+    height: 200px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+
+}
+.card3{
+
+    background-image: url(./images/579A14AF-037C-4596-AEE5-E94AF147FE2B_1_105_c.jpeg);
+    
+    height: 200px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+
+}
+.card4{
+
+    background-image: url(./images/6F67DEFA-19B9-452C-B26B-F933F4F75889_1_105_c.jpeg);
+    
+    height: 200px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+
+}
+.card5{
+
+    background-image: url(./images/92A630FF-AE60-469A-A630-5728CEE8250F_1_105_c.jpeg);
+    
+    height: 200px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+
+}
+.card6{
+
+    background-image: url(./images/D14248F1-A0B3-423B-97F5-4E8994BE0F4C_1_105_c.jpeg);
+    
+    height: 200px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+
+}
+.card7{
+
+    background-image: url(./images/E005E6F0-2E64-44EF-8967-BAE139D54739_1_105_c.jpeg);
+    
+    height: 200px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+
+}
+.card8{
+
+    background-image: url(./images/3783F051-F307-4B1B-AAD4-714EE31B13EC_1_105_c.jpeg);
+    
+    height: 200px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+
+}
+.card9{
+
+    background-image: url(./images/5C4DE976-3471-48D1-B13D-2F787962A3ED_1_105_c.jpeg);
+    
+    height: 200px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+
+}
+.card12{
+
+    background-image: url(./images/7A06C5C0-7642-44A1-96D8-C3BFA5ED5BAC_1_105_c.jpeg);
+    
+    height: 200px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+
+}
+.card11{
+
+    background-image: url(./images/08751FD3-5294-4E51-8730-A02376C59C65_1_201_a.jpeg);
+    
+    height: 200px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+
+}
+.card10{
+
+    background-image: url(./images/727A4BEA-425B-4DC2-B2DC-92F211929E2F_1_105_c.jpeg);
+    
+    height: 200px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+
+}
+.card13{
+
+    background-image: url(./images/333C3D55-7A93-4FBB-B56A-6351212C133B_1_105_c.jpeg);
+    
+    height: 200px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+
+}
+.card14{
+
+    background-image: url(./images/46A903C4-E48D-4FF6-875C-D08EDCE04F72_1_105_c.jpeg);
+    
+    height: 200px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+
+}
+.card15{
+
+    background-image: url(./images/9D804F86-6EF6-4D93-AF28-6DDB14522AC6_1_105_c.jpeg);
+    
+    height: 200px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+
+}
+.card16{
+
+    background-image: url(./images/B38B65B4-2D22-45E7-97C4-3D76F4A575FD_1_105_c.jpeg);
+    
+    height: 200px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+
+}
+
+footer{
+    color: white;
+}
+p{
+    color:gray;
+   
+}
+    
+h2{
+    font-family:monospace;
+    color: rgba(145, 14, 0, 0.664);
+}
+
+
+.nav-link{
+    font-family:monospace;
+}
+
+.navbar-top{
+    margin-left: 50vmin;
+    margin-right: 50vmin;
+}
+.butoon-top{
+    background-color:rgba(161, 161, 161, 0.219);
+    border:none;
+}
