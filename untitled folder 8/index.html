@@ -1,343 +1,504 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style3.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Hind+Siliguri:wght@700&family=Quicksand:wght@500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Hind+Siliguri:wght@700&family=Josefin+Sans:wght@700&family=Quicksand:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amarante&family=Hind+Siliguri:wght@700&family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amarante&family=Hind+Siliguri:wght@700&family=Josefin+Sans:wght@700&family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
     <title>Document</title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center navbar-top  ">
-        <div class="container-fluid   ">
-          <a class="navbar-brand " href="#"><strong>&infin;</strong></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center ">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">WebDev</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="http://127.0.0.1:5503/index1.html">Photography</a>
-              </li>
-              
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    About Me
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">LinkedIn</a></li>
-                  <li><a class="dropdown-item" href="#">GitHab</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Facebook</a></li>
-                </ul>
-              </li>
-              
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light justify-content-center navbar-top"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><strong>&infin;</strong></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >WebDev</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="http://127.0.0.1:5500/css1/untitled%20folder%208/index3.html"
+                >Photography</a
+              >
+            </li>
 
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About Me
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">LinkedIn</a></li>
+                <li><a class="dropdown-item" href="#">GitHab</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Facebook</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
 
     <div class="wrapper">
-        <div class="box a">
-            <div class="titel">  <h2>CSS </h2></div>
+      <div class="box a">
+        <div class="titel"><h2>CSS</h2></div>
+      </div>
+      <div class="box b">
+        <div class="box-001"></div>
+        <div class="box-002"></div>
+        <div class="box-003"></div>
+        <div class="box-004"></div>
+        <div class="box-005"></div>
+        <div class="box-006"></div>
+        <div class="box-007">
+          <h3 class="autor">
+            <button
+              type="button"
+              class="btn btn-primary"
+              disabled
+              data-bs-toggle="button"
+              autocomplete="off"
+            >
+              Three Bottels, 1998
+            </button>
+          </h3>
         </div>
-        <div class="box b">
-            <div class="box-001"></div>
-            <div class="box-002"></div>
-            <div class="box-003"></div>
-            <div class="box-004"></div>
-            <div class="box-005"></div>
-            <div class="box-006"></div>
-            <div class="box-007">
-                <h3 class="autor"><button type="button" class="btn btn-primary" disabled data-bs-toggle="button" autocomplete="off">Three Bottels, 1998</button></h3>
+        <div class="box-008"></div>
+        <div class="box-009"></div>
+      </div>
+      <div class="box c">
+        <div class="box-01"></div>
+        <div class="box-02"></div>
+        <div class="box-03"></div>
+        <div class="box-04"></div>
+        <div class="box-05"></div>
+        <div class="box-06"></div>
+        <div class="box-07">
+          <h3 class="autor">
+            <button
+              type="button"
+              class="btn btn-primary"
+              disabled
+              data-bs-toggle="button"
+              autocomplete="off"
+            >
+              Bottles and Keys, 1984
+            </button>
+          </h3>
+        </div>
+        <div class="box-08"></div>
+        <div class="box-09"></div>
+      </div>
+      <div class="box d">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+        <div class="box-4"></div>
+        <div class="box-5"></div>
+        <div class="box-6"></div>
+        <div class="box-7">
+          <h3 class="autor">
+            <button
+              type="button"
+              class="btn btn-primary"
+              disabled
+              data-bs-toggle="button"
+              autocomplete="off"
+            >
+              Red, White and Gray, 1971
+            </button>
+          </h3>
+        </div>
+        <div class="box-8"></div>
+        <div class="box-9"></div>
+      </div>
+    </div>
+
+    <section class="section2">
+      <div class="contrn1">
+        <div class="pic0001"></div>
+        <div class="pic0002"></div>
+        <div class="pic0003"></div>
+        <div class="pic0004"></div>
+        <div class="pic0005"></div>
+        <div class="pic0006">
+          <h3 class="autor">
+            <button
+              type="button"
+              class="btn btn-primary"
+              disabled
+              data-bs-toggle="button"
+              autocomplete="off"
+            >
+              Barbara Swan
+            </button>
+          </h3>
+        </div>
+        <div class="pic0007"></div>
+        <div class="pic0008"></div>
+        <div class="pic0009"></div>
+      </div>
+      <div class="contrn2">
+        <blockquote>
+          <div class="paper"><p>WATERCOLOR ON PAPER</p></div>
+
+          <footer>— <cite>by Barbara Swan</cite></footer>
+        </blockquote>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <div class="one"><h1>ART SHOW</h1></div>
+                </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit,
+                  <a href="http://127.0.0.1:5503/index1.html"
+                    ><strong>photography</strong>
+                  </a>
+                </p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Error, suscipit?
+                </p>
+                <p>Lorem ipsum, dolor , suscipit?</p>
+                <p>
+                  Temporibus dolore perferendis laudantium esse animi illum
+                  quasi ex omnis fugiat eligendi.
+                </p>
+                <p>Lorem ipsum, dolor , suscipit?</p>
+                <p>
+                  Lorem ipsum dolor sit. Fuga sed facere voluptate architecto
+                  est laborum?
+                </p>
+                <a href="#" class="btn button btn-primary">ART SHOW</a>
+              </div>
             </div>
-            <div class="box-008"></div>
-            <div class="box-009"></div>
-        </div>
-        <div class="box c">
-            <div class="box-01"></div>
-            <div class="box-02"></div>
-            <div class="box-03"></div>
-            <div class="box-04"></div>
-            <div class="box-05"></div>
-            <div class="box-06"></div>
-            <div class="box-07">
-                <h3 class="autor"><button type="button" class="btn btn-primary" disabled data-bs-toggle="button" autocomplete="off">Bottles and Keys, 1984</button></h3>
-            </div>
-            <div class="box-08"></div>
-            <div class="box-09"></div>
-        </div>
-        <div class="box d">
-          <div class="box-1"></div>
-          <div class="box-2"></div>
-          <div class="box-3"></div>
-          <div class="box-4"></div>
-          <div class="box-5"></div>
-          <div class="box-6"></div>
-          <div class="box-7">
-            <h3 class="autor"><button type="button" class="btn btn-primary" disabled data-bs-toggle="button" autocomplete="off">Red, White and Gray, 1971</button></h3>
           </div>
-          <div class="box-8"></div>
-          <div class="box-9"></div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <div class="one"><h1>CEREMONY</h1></div>
+                </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Temporibus fugiat eligendi.
+                </p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit?</p>
+                <p>
+                  <a href="http://127.0.0.1:5503/index1.html">
+                    <strong> Error, suscipit, Hamburg? </strong>
+                  </a>
+                </p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Error, suscipit?
+                </p>
+                <p>
+                  Temporibus dolore perferendis laudantium esse animi illum
+                  quasi ex omnis fugiat eligendi.
+                </p>
+                <p>Lorem ipsum, dolor , suscipit?</p>
+                <a href="#" class="btn button btn-primary">CEREMONY</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-   
-  
-    <section class="section2">
-        <div class="contrn1">
-            <div class="pic0001"></div>
-            <div class="pic0002"></div>
-            <div class="pic0003"></div>
-            <div class="pic0004"></div>
-            <div class="pic0005"></div>
-            <div class="pic0006">
-                <h3 class="autor"><button type="button" class="btn btn-primary " disabled data-bs-toggle="button" autocomplete="off">Barbara Swan</button></h3>
-            </div>
-            <div class="pic0007"></div>
-            <div class="pic0008"></div>
-            <div class="pic0009"></div>
-                        
 
-        </div>
-        <div class="contrn2">
-            <blockquote><div class="paper"> <p> WATERCOLOR ON PAPER </p>  </div>
-                
-                <footer>— <cite>by Barbara Swan</cite></footer>
-              </blockquote>
-
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title"><div class="one"><h1>ART SHOW</h1></div></h5>
-                      <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit, <a href="http://127.0.0.1:5503/index1.html"><strong>photography</strong> </a> </p> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, suscipit?</p> <p>Lorem ipsum, dolor , suscipit?</p><p>Temporibus dolore perferendis laudantium esse animi illum quasi ex omnis fugiat eligendi.</p> <p>Lorem ipsum, dolor , suscipit?</p><p>Lorem ipsum dolor sit. Fuga sed facere voluptate architecto est laborum?</p> 
-                      <a href="#" class="btn button btn-primary">ART SHOW</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title"><div class="one"><h1>CEREMONY</h1></div></h5>
-                      <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus fugiat eligendi.</p> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit?</p> <p><a href="http://127.0.0.1:5503/index1.html"> <strong> Error, suscipit, Hamburg? </strong> </a></p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, suscipit?</p><p>Temporibus dolore perferendis laudantium esse animi illum quasi ex omnis fugiat eligendi.</p> <p>Lorem ipsum, dolor , suscipit?</p>  
-                      <a href="#" class=" btn button btn-primary">CEREMONY</a>
-                    </div>
-                  </div>
-                </div>
-               
-              </div>
-                
-               
-              </div>
-              
-            
-              
-       
-              <div class="link container-fluid bg-transparent  mb-5 ">
-                <ul class="nav justify-content-left">
-                    <!-- <li class="nav-item">
+      <div class="link container-fluid bg-transparent mb-5">
+        <ul class="nav justify-content-left">
+          <!-- <li class="nav-item">
                         <a href="https://www.linkedin.com/in/korneli-nastas-0b1249170/" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
                     </li> -->
-                    <li class="nav-item">
-                        <a href="https://github.com/korneli1970" class="nav-link"><i class="fab fa-github"></i></a>
-                    </li>
-                   
-                  <li class="nav-item">
-                      <a href="https://www.facebook.com/korneli.nastas" class="nav-link"><i class="fab fa-facebook"></i></a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="mailto:korneli.nastas@gmail.com" class="nav-link"><i class="fas fa-at"></i></a>
-                </li>
-                </ul>
-              </div> 
-   
+          <li class="nav-item">
+            <a href="https://github.com/korneli1970" class="nav-link"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
 
-</section>
-<section class="section4">
-    <div class="last"></div>
-    <p class="striped-shadow">Coming soon: "Boston Expressionists"</p>
-</section> 
-
-<br>
-
-<section class="section5">
-    <div class="block1">
-        <div class="card text-center">
-            <div class="card-header">
-                Février 2022
-            </div>
-            <div class="card-body">
-                <h5 class="card-title"><div class="one"><h1>Paris</h1></div></h5>
-              <p class="card-text">Avec le texte de support ci-dessous comme introduction naturelle à du contenu supplémentaire.</p>
-              <a href="#" class="btn btn-primary">buy ticket</a>
-            </div>
-            <div class="card-footer text-muted">
-              12-18 February 2022, France
-            </div>
-          </div>
-       
-       
+          <li class="nav-item">
+            <a href="https://www.facebook.com/korneli.nastas" class="nav-link"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a href="mailto:korneli.nastas@gmail.com" class="nav-link"
+              ><i class="fas fa-at"></i
+            ></a>
+          </li>
+        </ul>
       </div>
-    <div class="block2">
-        <img src="https://i.pinimg.com/564x/76/9a/c1/769ac13744103e6702649c9a951cf515.jpg" alt="">
-    </div>
-    <div class="block3">
-        <img src="https://i.pinimg.com/564x/71/e3/d1/71e3d1cb4386a3b5d06843e16c79b359.jpg" alt="">
-    </div>
-    <div class="block4">
-        <div class="card text-center">
-            <div class="card-header">
-               April 2022
-            </div>
-            <div class="card-body">
-                <h5 class="card-title"><div class="one"><h1>Hamburg</h1></div></h5>
-              <p class="card-text">Mit unterstützendem Text unten als natürlicher Einstieg in zusätzliche Inhalte.</p>
-              <a href="#" class="btn btn-primary">buy ticket</a>
-            </div>
-            <div class="card-footer text-muted">
-                23-28 April 2022, Germany
-            </div>
-          </div>
-    </div>
-    <div class="block5">
-        <div class="card text-center">
-            <div class="card-header">
-                Mай 2022
-            </div>
-            <div class="card-body">
-                <h5 class="card-title"><div class="one"><h1>Москва</h1></div></h5>
-              <p class="card-text">С сопровождающим текстом ниже, как естественным вводом к дополнительному контенту.</p>
-              <a href="#" class="btn btn-primary">buy ticket</a>
-            </div>
-            <div class="card-footer text-muted">
-              02-09 Mai 2022, Russia
-            </div>
-          </div>
-        
-    </div>
-    <div class="block6">
-        <img src="https://i.pinimg.com/564x/29/b2/ee/29b2ee3f6f5a1d284a6fac285ea14538.jpg" alt="">
-    </div>
-    <div class="block7">
-        <div class="card text-center">
-            <div class="card-header">
-                November 2022
-            </div>
-            <div class="card-body">
-                <h5 class="card-title"><div class="one"><h1>London</h1></div></h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">buy ticket</a>
-            </div>
-            <div class="card-footer text-muted">
-              03-07 November 2022, England
-            </div>
-          </div>
-    </div>
-    <div class="block8">
-        <img src="https://i.pinimg.com/564x/fa/26/3a/fa263abf09cdd8934fa3629591238aab.jpg" alt="">
-    </div>
-    <div class="block9">
-       <img src="https://i.pinimg.com/564x/a1/37/24/a13724c518e308da5c6cb07e95e28559.jpg" alt="">
-    </div>
-</section>
+    </section>
+    <section class="section4">
+      <div class="last"></div>
+      <p class="striped-shadow">Coming soon: "Boston Expressionists"</p>
+    </section>
 
+    <br />
 
-<div class="alert alert-primary text-center  " role="alert"> <a href="https://www.w3schools.com/exercises/index.php"><strong> Exercises and Quizzes  |  Web Development | W3Schools </strong></a>
-   
-</div>
-<section class="section7">
-  <p class="striped-shadow">Buy tickets online</p>
-  <form class="row g-3 form-live">
-    <div class="col-md-6">
-      <label for="inputEmail4" class="form-label">Email</label>
-      <input type="email" class="form-control" id="inputEmail4">
-    </div>
-    <div class="col-md-6">
-      <label for="inputPassword4" class="form-label">Password</label>
-      <input type="password" class="form-control" id="inputPassword4">
-    </div>
-    <div class="col-12">
-      <label for="inputAddress" class="form-label">Address</label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="22085 Hamburg">
-    </div>
-    <div class="col-12">
-      <label for="inputAddress2" class="form-label">Address 2</label>
-      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-    </div>
-    <div class="col-md-6">
-      <label for="inputCity" class="form-label">City</label>
-      <input type="text" class="form-control" id="inputCity">
-    </div>
-    <div class="col-md-4">
-      <label for="inputState" class="form-label">State</label>
-      <select id="inputState" class="form-select">
-        <option selected>Choose...</option>
-        <option>...</option>
-      </select>
-    </div>
-    <div class="col-md-2">
-      <label for="inputZip" class="form-label">Zip</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
-    <div class="col-12">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck">
-        <label class="form-check-label" for="gridCheck">
-          Check me out
-        </label>
+    <section class="section5">
+      <div class="block1">
+        <div class="card text-center">
+          <div class="card-header">Février 2022</div>
+          <div class="card-body">
+            <h5 class="card-title">
+              <div class="one"><h1>Paris</h1></div>
+            </h5>
+            <p class="card-text">
+              Avec le texte de support ci-dessous comme introduction naturelle à
+              du contenu supplémentaire.
+            </p>
+            <a href="#" class="btn btn-primary">buy ticket</a>
+          </div>
+          <div class="card-footer text-muted">12-18 February 2022, France</div>
+        </div>
       </div>
+      <div class="block2">
+        <img
+          src="https://i.pinimg.com/564x/76/9a/c1/769ac13744103e6702649c9a951cf515.jpg"
+          alt=""
+        />
+      </div>
+      <div class="block3">
+        <img
+          src="https://i.pinimg.com/564x/71/e3/d1/71e3d1cb4386a3b5d06843e16c79b359.jpg"
+          alt=""
+        />
+      </div>
+      <div class="block4">
+        <div class="card text-center">
+          <div class="card-header">April 2022</div>
+          <div class="card-body">
+            <h5 class="card-title">
+              <div class="one"><h1>Hamburg</h1></div>
+            </h5>
+            <p class="card-text">
+              Mit unterstützendem Text unten als natürlicher Einstieg in
+              zusätzliche Inhalte.
+            </p>
+            <a href="#" class="btn btn-primary">buy ticket</a>
+          </div>
+          <div class="card-footer text-muted">23-28 April 2022, Germany</div>
+        </div>
+      </div>
+      <div class="block5">
+        <div class="card text-center">
+          <div class="card-header">Mай 2022</div>
+          <div class="card-body">
+            <h5 class="card-title">
+              <div class="one"><h1>Москва</h1></div>
+            </h5>
+            <p class="card-text">
+              С сопровождающим текстом ниже, как естественным вводом к
+              дополнительному контенту.
+            </p>
+            <a href="#" class="btn btn-primary">buy ticket</a>
+          </div>
+          <div class="card-footer text-muted">02-09 Mai 2022, Russia</div>
+        </div>
+      </div>
+      <div class="block6">
+        <img
+          src="https://i.pinimg.com/564x/29/b2/ee/29b2ee3f6f5a1d284a6fac285ea14538.jpg"
+          alt=""
+        />
+      </div>
+      <div class="block7">
+        <div class="card text-center">
+          <div class="card-header">November 2022</div>
+          <div class="card-body">
+            <h5 class="card-title">
+              <div class="one"><h1>London</h1></div>
+            </h5>
+            <p class="card-text">
+              With supporting text below as a natural lead-in to additional
+              content.
+            </p>
+            <a href="#" class="btn btn-primary">buy ticket</a>
+          </div>
+          <div class="card-footer text-muted">03-07 November 2022, England</div>
+        </div>
+      </div>
+      <div class="block8">
+        <img
+          src="https://i.pinimg.com/564x/fa/26/3a/fa263abf09cdd8934fa3629591238aab.jpg"
+          alt=""
+        />
+      </div>
+      <div class="block9">
+        <img
+          src="https://i.pinimg.com/564x/a1/37/24/a13724c518e308da5c6cb07e95e28559.jpg"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <div class="alert alert-primary text-center" role="alert">
+      <a href="https://www.w3schools.com/exercises/index.php"
+        ><strong>
+          Exercises and Quizzes | Web Development | W3Schools
+        </strong></a
+      >
     </div>
-    <div class="col-12">
-      <button type="submit" class="btn btn-primary">BUY TICKET</button>
+    <section class="section7">
+      <p class="striped-shadow">Buy tickets online</p>
+      <form class="row g-3 form-live">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4" />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress"
+            placeholder="22085 Hamburg"
+          />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress2"
+            placeholder="Apartment, studio, or floor"
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity" />
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip" />
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" />
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">BUY TICKET</button>
+        </div>
+      </form>
+    </section>
+
+    <div class="alert alert-light text-center" role="alert">
+      <strong>
+        <div class="container-fluid bg-transparent mb-5">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a href="https://github.com/korneli1970" class="nav-link"
+                >GitHub</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://www.linkedin.com/in/korneli-nastas-0b1249170/"
+                class="nav-link"
+                >LinkedIn</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="https://www.facebook.com/korneli.nastas" class="nav-link"
+                >Facebook</a
+              >
+            </li>
+          </ul>
+        </div>
+      </strong>
     </div>
-  </form>
 
-</section>
+    <footer
+      class="container-fluid bg-secondary text-center p-2 mt-2 fixed-bottom"
+    >
+      All rights reserved © 2022 Korneli Nastas
+    </footer>
 
-<div class="alert alert-light text-center  " role="alert">
-  <strong> <div class="container-fluid bg-transparent  mb-5 ">
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a href="https://github.com/korneli1970" class="nav-link">GitHub</a>
-        </li>
-        <li class="nav-item">
-          <a href="https://www.linkedin.com/in/korneli-nastas-0b1249170/" class="nav-link">LinkedIn</a>
-      </li>
-      <li class="nav-item">
-          <a href="https://www.facebook.com/korneli.nastas" class="nav-link">Facebook</a>
-      </li>
-    </ul>
-  </div>   </strong>
-</div>
-
-  
-
-  <footer class="container-fluid bg-secondary text-center p-2 mt-2  fixed-bottom " > All rights reserved © 2022 Korneli Nastas </footer>
-
-
-
-
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
